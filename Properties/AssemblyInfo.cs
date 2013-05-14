@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("IS445HW7")]
+[assembly: AssemblyTitle("_445CourseProject")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Microsoft")]
-[assembly: AssemblyProduct("IS445HW7")]
+[assembly: AssemblyProduct("_445CourseProject")]
 [assembly: AssemblyCopyright("Copyright © Microsoft 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("b990053f-a8e3-4e36-b3c5-8c5ca9ed00e0")]
+[assembly: Guid("f837c532-1e74-43ff-bfb2-c28bc80dad24")]
 
 // Version information for an assembly consists of the following four values:
 //

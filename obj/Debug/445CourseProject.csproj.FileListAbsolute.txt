@@ -1,0 +1,5 @@
+C:\Users\DELL\Desktop\445CourseProject\445CourseProject\bin\445CourseProject.dll
+C:\Users\DELL\Desktop\445CourseProject\445CourseProject\bin\445CourseProject.pdb
+C:\Users\DELL\Desktop\445CourseProject\445CourseProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\445CourseProject\445CourseProject\obj\Debug\445CourseProject.dll
+C:\Users\DELL\Desktop\445CourseProject\445CourseProject\obj\Debug\445CourseProject.pdb
