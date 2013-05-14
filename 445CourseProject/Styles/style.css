@@ -1,0 +1,44 @@
+﻿body {
+}
+
+/* Classes start with period.  IDs start with # */
+
+.firstclass 
+{
+    border-style:dashed;
+}
+
+.secondclass
+{
+    border-style:solid;
+}
+
+
+h1 
+{
+    color:Green;
+}
+
+#Red
+{
+    color:Red;
+}
+
+
+
+span
+{
+    color:Orange;
+}
+#zabble
+{
+    color:Maroon
+}
+
+div
+{
+    border-style:solid;
+    width:700px;
+    border-color:Green;
+    font-size:2em;
+}

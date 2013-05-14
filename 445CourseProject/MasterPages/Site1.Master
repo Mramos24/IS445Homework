@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="_445CourseProject.MasterPages.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Styles/StyleSheet1.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder><h1>&nbsp;Melinda's ASP.NET Web Site in Windows Azure</h1>
+</head>
+
+    <form id="form1" runat="server">
+    <div>  
+           <nav>       
+           <asp:Menu ID="Menu1" runat="server" DataSourceID="SiteMapDataSource1" 
+                Orientation="Horizontal" StaticSubMenuIndent="16px" 
+                style="background-color: #CCFFFF">
+               <DynamicMenuItemStyle BackColor="Pink" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+                ShowStartingNode="False" />
+            </nav>
+            </div>
+     
+            <br />
+            <div style="width: 779px; height: 365px;">
+            <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1" 
+                    Width="200px" BackColor="#FFFF99" ForeColor="Blue">
+            </asp:TreeView>
+    <div class="content"> 
+        <asp:SiteMapPath id="SiteMapPath1" runat="server">
+        </asp:SiteMapPath> 
+       <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+
+
+        &nbsp;&nbsp;
+        </asp:ContentPlaceHolder> </div>
+   
+            <br />
+    </div>
+   
+    </form>
+   
+
+</html>
